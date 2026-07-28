@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 int addNumber( int first_param, int second_param){     int result =  first_param + second_param;     return result; } 
 int main(){      int first_number{13};   
@@ -16,10 +16,12 @@ return 0;
 
 }
 
+*/
 
 //EXERCISE COMPLETED
 
-/*#include <iostream>
+/*
+#include <iostream>
 
 int multNumber(int first_number, int second_number){
 int result = first_number * second_number;
@@ -37,5 +39,29 @@ std::cout << " sum :" << sum  << std::endl;
 
 return 0;
 
-} */
+} 
+*/
+
+
+//RECARPS 
+#include <iostream> 
+ int multNumber(int First_Number, int Second_Number){
+    int result = First_Number * Second_Number;
+    return result;
+ }
+    int main(){
+        int First_Number{32};
+        int Second_Number{2};
+        int result = First_Number * Second_Number;
+
+
+    std::cout<< "First_Number : " << First_Number<<std::endl;
+    std::cout<<"Second_Number : "<< Second_Number<<std::endl;
+    std::cout<<" result : " << result << std::endl;
+
+    return 0;
+    }
+ 
+
+
 
