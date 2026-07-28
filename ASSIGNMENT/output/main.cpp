@@ -1,5 +1,5 @@
 #include <iostream> 
-
+/*
 int main(){
     auto var1 {12};
     auto var2 {(float)(14.0f)};
@@ -23,7 +23,7 @@ int main(){
     std::cout<<"var7 occupies : "<< sizeof(var7)<< "bytes"<<std::endl;
     std::cout<<"var8 occupies : "<< sizeof(var8)<< "bytes"<<std::endl;
 
-
+*/
 
 /*Out put 
     var1 occupies : 4bytes
@@ -34,6 +34,7 @@ var5 occupies : 1bytes
 var6 occupies : 4bytes
 var7 occupies : 4bytes
 var8 occupies : 8bytes
-*/
+
     return 0;
 }
+ */
