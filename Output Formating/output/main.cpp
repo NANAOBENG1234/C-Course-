@@ -4,10 +4,11 @@
 
 int main(){
     // this is going to print out "hello world"
-    std::cout << "hello world" << std::endl;
-    /*
-    this is for multiple lines of comments
-    */
+    std::cout << "hello " << std::endl;
+    std::cout <<"World"<<std::endl;
+
+
+    
     return 0;
     // the program ends here
 }
