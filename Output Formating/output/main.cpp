@@ -41,15 +41,17 @@ std::cout<<"Josh  "<<" Carr "<<"27"<<std::endl;
 std::cout<<"Izaiah  "<<"Robinson "<<"30"<<std::endl;
 
 std::cout<<std::endl;
-
+int col_width = 10;
 std::cout<<" Formated Table :"<<std::endl;
-std::cout << std::setw(10)<<"Firstname"<<std::setw(10)<< "Last Name  " << std::setw(10)<< "Age"<<std::endl;
- std::cout<< std::setw(10)<<"Daniel"<<std::setw(10)<<"Gray"<<std::setw(10)<<"25"<<std::endl;
-std::cout<< std::setw(10)<<"Stanley"<<std::setw(10)<<"wood"<<std::setw(10)<<"33  "<<std::endl;
-std::cout<< std::setw(10)<<"Jordan"<<std::setw(10)<<"Parker"<<std::setw(10)<<"45"<<std::endl;
-std::cout<< std::setw(10)<<"Joe"<<std::setw(10)<<"Ball"<<std::setw(10)<<"21"<<std::endl;
-std::cout<< std::setw(10)<<"Josh"<<std::setw(10)<<"Carr"<<std::setw(10)<<"27"<<std::endl;
-std::cout<< std::setw(10)<<"Izaiah"<<std::setw(10)<<"Robinson"<<std::setw(10)<<"30"<<std::endl;
+std::cout << std::setw(col_width)<<"Firstname"<<std::setw(col_width)<< "Last Name  " << std::setw(col_width)<< "Age"<<std::endl;
+ std::cout<< std::setw(col_width)<<"Daniel"<<std::setw(col_width)<<"Gray"<<std::setw(col_width)<<"25"<<std::endl;
+std::cout<< std::setw(col_width)<<"Stanley"<<std::setw(col_width)<<"wood"<<std::setw(col_width)<<"33"<<std::endl;
+std::cout<< std::setw(col_width)<<"Jordan"<<std::setw(col_width)<<"Parker"<<std::setw(col_width)<<"45"<<std::endl;
+std::cout<< std::setw(col_width)<<"Joe"<<std::setw(col_width)<<"Ball"<<std::setw(col_width)<<"21"<<std::endl;
+std::cout<< std::setw(col_width)<<"Josh"<<std::setw(col_width)<<"Carr"<<std::setw(col_width)<<"27"<<std::endl;
+std::cout<< std::setw(col_width)<<"Izaiah"<<std::setw(col_width)<<"Robinson"<<std::setw(col_width)<<"30"<<std::endl;
+
+
 
 
     return 0;
