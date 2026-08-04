@@ -43,13 +43,13 @@ std::cout<<"Izaiah  "<<"Robinson "<<"30"<<std::endl;
 std::cout<<std::endl;
 
 std::cout<<" Formated Table :"<<std::endl;
-std::cout << std::setw(10)<<"Firstname  "<< std::setw(10)<< "Last Name  " << std::setw(10)<< "Age"<<std::endl;
- std::cout<< std::setw(10)<<"Daniel   "<< std::setw(10)<<"Gray  "<< std::setw(10)<<"25"<<std::endl;
-std::cout<< std::setw(10)<<"Stanley "<< std::setw(10)<<"wood  "<< std::setw(10)<<"33  "<<std::endl;
-std::cout<<"Jordan "<< std::setw(10)<<"Parker "<< std::setw(10)<<"45"<<std::endl;
-std::cout<< std::setw(10)<<"Joe  "<< std::setw(10)<<"Ball "<< std::setw(10)<<"21"<<std::endl;
-std::cout<< std::setw(10)<<"Josh  "<< std::setw(10)<<" Carr "<< std::setw(10)<<"27"<<std::endl;
-std::cout<< std::setw(10)<<"Izaiah  "<< std::setw(10)<<"Robinson "<< std::setw(10)<<"30"<<std::endl;
+std::cout << std::setw(10)<<"Firstname"<<std::setw(10)<< "Last Name  " << std::setw(10)<< "Age"<<std::endl;
+ std::cout<< std::setw(10)<<"Daniel"<<std::setw(10)<<"Gray"<<std::setw(10)<<"25"<<std::endl;
+std::cout<< std::setw(10)<<"Stanley"<<std::setw(10)<<"wood"<<std::setw(10)<<"33  "<<std::endl;
+std::cout<< std::setw(10)<<"Jordan"<<std::setw(10)<<"Parker"<<std::setw(10)<<"45"<<std::endl;
+std::cout<< std::setw(10)<<"Joe"<<std::setw(10)<<"Ball"<<std::setw(10)<<"21"<<std::endl;
+std::cout<< std::setw(10)<<"Josh"<<std::setw(10)<<"Carr"<<std::setw(10)<<"27"<<std::endl;
+std::cout<< std::setw(10)<<"Izaiah"<<std::setw(10)<<"Robinson"<<std::setw(10)<<"30"<<std::endl;
 
 
     return 0;
