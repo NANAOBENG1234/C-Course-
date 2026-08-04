@@ -28,9 +28,17 @@ std::cout<<std::endl;
 //std::flushes the output to it's final destination 
 std::cout<<"My God never fails me"<<std::flush;
 
+std::cout<<std::endl;
+//==============================================
+//Trying something crazy
 
-
-
+std::cout<<"Unformated table : "<<std::endl;
+std::cout<<"Daniel   "<<"Gray  "<<"25"<<std::endl;
+std::cout<<"Stanley "<<"wood  "<<"33  "<<std::endl;
+std::cout<<"Jordan "<<"Parker "<<"45"<<std::endl;
+std::cout<<"Joe  "<<"Ball "<<"21"<<std::endl;
+std::cout<<"Josh  "<<" Carr "<<"27"<<std::endl;
+std::cout<<"Izaiah  "<<"Robinson "<<"30"<<std::endl;
 
 
 
