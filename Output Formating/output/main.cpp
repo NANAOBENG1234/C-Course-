@@ -19,6 +19,22 @@ std::cout<<std::endl;
 std::cout<<"Hello\n";
 std::cout<<"World\n";
 
+
+//=============================================================
+std::cout<<std::endl;
+
+
+
+//std::flushes the output to it's final destination 
+std::cout<<"My God never fails me"<<std::flush;
+
+
+
+
+
+
+
+
     return 0;
     // the program ends here
 }
