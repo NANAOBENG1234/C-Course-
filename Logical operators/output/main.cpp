@@ -1,8 +1,9 @@
 // this includes the iostream library
 #include <iostream>
-int main(){
 
- bool a{true};
+
+int main(){
+   bool a{true};
    bool b{false};
    bool c{true};
 
@@ -42,12 +43,8 @@ std::cout<<"(x>y) && (y<z) :"<< ((x>y) &&(y<z))<<std::endl;
 std::cout<< "(x || y) && (y>z):"<<((x || y) && (y>z))<<std::endl;
 std::cout<< "(x == y) && (y<=z):"<<((x == y) && (y<=z))<<std::endl;
 std::cout<< "(x >= y) && (y>=z):"<<((x >= y) && (y>=z))<<std::endl;
-std::cout<< "!(x || y) && !(y>z):"<<!((x || y) && !(y>z))<<std::endl;
+std::cout<< "!(x || y) ||!(y>z):"<<!((x || y) && !(y>z))<<std::endl;
 
-
-
-
-  
     return 0;
     // the program ends here
 }
