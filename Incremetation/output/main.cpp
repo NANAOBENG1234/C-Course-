@@ -27,6 +27,6 @@ int main(){
     value = 10;
     --value;
     std::cout<<"The value is() prefixed-- ): "<< value <<std::endl;
-    std::cout<<"value"<<std::endl;
+    std::cout<<"value : "<< value<<std::endl;
     return 0;
 }

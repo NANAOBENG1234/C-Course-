@@ -27,7 +27,7 @@ std::cout<<std::endl;
 
 //std::flushes the output to it's final destination 
 std::cout<<"My God never fails me"<<std::flush;
-std::cout<<"-------------------"<<std::endl;
+std::cout<<"--Yes He won't"<<std::endl;
 std::cout<<std::endl;
 //==============================================
 //Trying something crazy
@@ -53,7 +53,8 @@ std::cout<< std::setw(col_width)<<"Izaiah"<<std::setw(col_width)<<"Robinson"<<st
 
 
 std::cout<<std::endl;
-std::cout<<std::left;
+std::cout<<std::left;//Data can be either left or right Justified 
+std::cout<<std::setfill('-');// Will fill spaces with broken lines , you can make the fill what ever you want +,*or even &
 std::cout<<" Formated Table :"<<std::endl;
 std::cout << std::setw(col_width)<<"Firstname"<<std::setw(col_width)<< "Last Name  " << std::setw(col_width)<< "Age"<<std::endl;
 std::cout<< std::setw(col_width)<<"Daniel"<<std::setw(col_width)<<"Gray"<<std::setw(col_width)<<"25"<<std::endl;
@@ -63,6 +64,24 @@ std::cout<< std::setw(col_width)<<"Joe"<<std::setw(col_width)<<"Ball"<<std::setw
 std::cout<< std::setw(col_width)<<"Josh"<<std::setw(col_width)<<"Carr"<<std::setw(col_width)<<"27"<<std::endl;
 std::cout<< std::setw(col_width)<<"Izaiah"<<std::setw(col_width)<<"Robinson"<<std::setw(col_width)<<"30"<<std::endl;
 
+
+
+std::cout<<std::endl;
+std::cout<<"-------------------------------"<<std::endl;
+
+
+
+std::cout<<std::endl;
+std::cout<<std::left;
+std::cout<<"internal justified"<<std::endl;
+std::cout<< -123.34<<std::endl;
+std::cout<<std::right;
+std::cout<< -123.34<<std::endl;
+
+std::cout<<std::endl;
+std::cout<<std::flush;
+std::cout<< std::setw(col_width)<<"Baby"<<std::setw(col_width)<<"Police"<<std::setw(col_width)<<"27"<<std::endl;
+std::cout<<std::setw(col_width)<<"Ransford"<<std::setw(col_width)<<"Nana"<<std::setw(col_width)<<"20"<<std::endl;
 
 
     return 0;
