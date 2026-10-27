@@ -24,7 +24,7 @@ int main(){
 std::cout<<std::endl;
 std::cout<< "!(a && b) :"<< !(a && b )<<std::endl;
 std::cout<<"!(a || b ): "<<!(a || b)<<std::endl;
-
+std::cout<<"(c&& a ) :"<< (c && a )<< std::endl;
 
 
 

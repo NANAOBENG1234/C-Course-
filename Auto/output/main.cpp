@@ -1,4 +1,4 @@
-#include <iostream> 
+/**#include <iostream> 
 
 int main(){
     auto var1 {12};
@@ -35,5 +35,11 @@ var6 occupies : 4bytes
 var7 occupies : 4bytes
 var8 occupies : 8bytes
 */
+
+
+#include <iostream>
+int main(){
+    std::cout<<"Hello world "<<std::endl;
+
     return 0;
 }

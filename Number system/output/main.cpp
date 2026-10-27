@@ -13,7 +13,10 @@ std::cout<< "sizeof(value2) :" << sizeof(value2)<<std::endl;
 
 
 
-//unsigned int value3 {13};
-//unsigned int value4 {-5};// compile error because unsigned is use to store positive values only
+unsigned int value3 {13};
+unsigned int value4 {5};// compile error because unsigned is use to store positive values only
+
+std::cout<< "value3: " << value3 << std::endl;
+std::cout<< "value4: " << value4<< std::endl;
 return 0;
 }
