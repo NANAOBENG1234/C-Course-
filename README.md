@@ -29,40 +29,56 @@ C++ is one of the most powerful programming languages used in industries where *
 
 ---
 
-## 📚 Repository Structure
+## 📚 What's in This Repository
 
-This repository contains exercises, notes, and projects organized by topic.
+Each topic has its own folder with a single `main.cpp` containing runnable examples and notes.
 
-```
-C-Course/
-│
-├── Basics/
-├── Variables/
-├── Data Types/
-├── Operators/
-├── Control Flow/
-├── Functions/
-├── Arrays/
-├── Pointers/
-├── Structures/
-├── Object Oriented Programming/
-├── STL/
-├── File Handling/
-├── Algorithms/
-├── Practice Problems/
-└── Projects/
-```
+| Folder | What I practised |
+| --- | --- |
+| `Comments` | Single-line and multi-line comments |
+| `Templates` | Starting template for a C++ program |
+| `Input and Output` | `std::cout`, `std::cin`, `std::getline` |
+| `Identifying errors` | Compile-time vs run-time errors |
+| `Auto` | Type deduction with `auto` and `sizeof` |
+| `Characters` | `char`, ASCII values, `static_cast` |
+| `Booleans` | `bool`, `std::boolalpha`, simple `if`/`else` |
+| `fractional numbers` | `float`, `double`, `long double`, precision, infinity and NaN |
+| `Number system` | Signed and unsigned integers, type sizes |
+| `Memory Model` | First look at the program memory model (early notes) |
+| `Basic Operations` | `+`, `-`, `*`, `/`, `%` |
+| `Compound Assignment Operators` | `+=`, `-=`, `*=`, `/=`, `%=` |
+| `Increment-Decrement` | Prefix and postfix `++` / `--` |
+| `Relational operators` | `<`, `<=`, `>`, `>=`, `==`, `!=` |
+| `Logical operators` | `&&`, `||`, `!` |
+| `Precedence and Associativity` | Order of evaluation in expressions |
+| `Output Formatting` | `std::setw`, `std::setfill`, alignment, `std::flush` |
+| `Input Formatting` | Logical and relational expression practice |
+| `Statement and Function` | Writing and calling functions |
+| `ASSIGNMENT` | Commented exercise solutions |
 
-As I continue learning, more folders and projects will be added.
+> Build output (`*.exe`) and per-topic editor settings are intentionally ignored by git. The repository keeps source and notes only.
 
 ---
 
 ## 🛠️ Technologies
 
-- C++
-- GCC / G++
+- C++ (C++17)
+- GCC / G++ via MSYS2 (MinGW-w64)
 - Visual Studio Code
 - Git & GitHub
+
+---
+
+## ⚙️ Building and Running
+
+Open the repository root in VS Code and press **Ctrl+Shift+B** to build the active file with the task in `.vscode/tasks.json`.
+
+Or compile from a terminal:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -Wpedantic "Output Formatting/main.cpp" -o main.exe
+./main.exe
+```
 
 ---
 
@@ -79,6 +95,23 @@ Throughout this journey, I aim to:
 - Improve problem-solving skills
 - Prepare for technical interviews
 - Develop software that bridges statistics and computing
+
+---
+
+## 📈 Progress
+
+- ✅ Fundamentals: I/O, comments, variables, types, operators, formatting
+- ⏳ Control flow (started with `if` / `else`)
+- ⏳ Functions in depth
+- ⏳ Arrays and vectors
+- ⏳ Pointers and references
+- ⏳ Object-Oriented Programming
+- ⏳ Standard Template Library (STL)
+- ⏳ Data structures
+- ⏳ Algorithms
+- ⏳ Design patterns
+- ⏳ Performance optimization
+- ⏳ Projects
 
 ---
 
@@ -99,19 +132,6 @@ My long-term goal is to use C++ as a tool for building systems in:
 - Optimization Algorithms
 
 I want to develop software that can efficiently solve complex statistical and computational problems while contributing to modern AI and data-driven technologies.
-
----
-
-## 📈 Progress
-
-- ✅ Learning C++ Fundamentals
-- ⏳ Object-Oriented Programming
-- ⏳ Standard Template Library (STL)
-- ⏳ Data Structures
-- ⏳ Algorithms
-- ⏳ Design Patterns
-- ⏳ Advanced C++
-- ⏳ Performance Optimization
 
 ---
 

@@ -1,0 +1,16 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.lib
+*.pdb
+*.ilk
+
+# Per-topic editor configs (the repo-root .vscode is kept)
+*/.vscode/
+
+# OS junk
+Thumbs.db
+.DS_Store
