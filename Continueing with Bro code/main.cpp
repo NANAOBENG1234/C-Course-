@@ -9,7 +9,7 @@ int main(){
     double adjacent;
     double hypothenus;
 
-
+    
     std::cout<<"Enter the Opposite :";
     std::cin>>opposite;
     std::cout<<"Enter your adjacent :";
