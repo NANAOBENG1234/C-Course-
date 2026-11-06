@@ -27,15 +27,10 @@ int main(){
 }
 // writing a program to calculate the mean give a set of values
 
-int main(){
-    int population;
-    int mean;
-    
-    std::cout<<'Enter all the numbers:";
 
 
     return 0;
-}
+
 
 
  
