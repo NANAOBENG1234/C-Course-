@@ -22,10 +22,15 @@ int main(){
     std::cout<< "hypothenus : " << hypothenus <<std::endl;
 
 
-    
-
-
-
-   return 0;
+      return 0;
 
 }
+// writing a program to calculate the mean give a set of values
+
+
+
+    return 0;
+
+
+
+ 
